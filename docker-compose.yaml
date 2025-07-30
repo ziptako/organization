@@ -1,0 +1,6 @@
+services:
+  organization:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: zipang0218/service/organization:latest
